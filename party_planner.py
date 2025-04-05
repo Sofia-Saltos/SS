@@ -74,4 +74,4 @@ selected_indices = form.getlist("items")
 selected_items, base_code = calculate_party_code(selected_indices)
 base_code, message = adjust_base_code(base_code)
 
-print(generate_html(selected_items, base_code, message))
+print(generate_html(selected_items, base_code, message))    
